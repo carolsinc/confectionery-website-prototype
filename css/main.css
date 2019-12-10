@@ -162,6 +162,9 @@ ul {
     padding: .5em 0;
   }
 
+  .sweets {
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 38em) {
