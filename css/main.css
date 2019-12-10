@@ -180,6 +180,8 @@ ul {
 
   p {
     padding: 0 3em;
+    max-width: 40em;
+    margin: auto;
   }
 
   .cards {
@@ -247,10 +249,6 @@ ul {
 
   nav a {
     white-space: nowrap;
-  }
-
-  p {
-    text-align: center;
   }
 
   .cards {
