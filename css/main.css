@@ -32,11 +32,11 @@ header h1 {
   margin: 0;
   text-align: center;
   padding: .3em 0;
-  font-family: 'Baloo Bhaina', cursive;
+  font-family: "Baloo Bhaina", cursive;
 }
 
 nav ul {
-  padding:0;
+  padding: 0;
   margin: 0;
   list-style-type: none;
   text-align: center;
@@ -63,7 +63,7 @@ h2 {
   text-align: center;
   color: #fff;
   margin: .8em 0 0;
-  font-family: 'Baloo Bhaina', cursive;
+  font-family: "Baloo Bhaina", cursive;
 }
 
 p {
@@ -93,7 +93,7 @@ p {
   border: 1px solid #18294f;
   border-radius: .5em;
   background-color: #fff;
-  padding:.4em .75em .3em;
+  padding: .4em .75em .3em;
   margin: .25em;
 }
 
@@ -101,6 +101,7 @@ p {
   background-color: #18294f;
   color: #fff;
 }
+
 .img-rev {
   display: none;
   border-radius: 8em;
@@ -138,7 +139,6 @@ footer ul {
 footer img {
   display: block;
   width: 100%;
-
 }
 
 .social > li {
@@ -149,8 +149,6 @@ footer img {
 ul {
   padding: 0;
 }
-
-
 
 @media only screen and (min-width: 25em) {
 
@@ -166,13 +164,14 @@ ul {
 }
 
 @media only screen and (min-width: 38em) {
+
   html {
     font-size: 110%;
     line-height: 1.4;
   }
 
   nav ul {
-  flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 
   nav li {
@@ -189,9 +188,9 @@ ul {
   }
 
   .sweets {
-  flex-basis: calc(50% - .6em);
-  display: flex;
-  position: relative;
+    flex-basis: calc(50% - .6em);
+    display: flex;
+    position: relative;
   }
 
   .btn {
@@ -220,8 +219,6 @@ ul {
     align-items: center;
   }
 
-
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -246,7 +243,7 @@ ul {
     display: block;
     min-width: 25%;
     border: 2px solid #000;
-}
+  }
 
   nav a {
     white-space: nowrap;
@@ -269,13 +266,13 @@ ul {
   }
 
   .circle-img {
-  margin: auto;
+    margin: auto;
   }
 
   .footer {
-  display: flex;
-  text-align: center;
-  justify-content: space-between;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
   }
 
 }
