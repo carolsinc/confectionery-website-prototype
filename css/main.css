@@ -20,6 +20,8 @@ html {
 body {
   margin: 0;
   background-color: #6c8fe0;
+  min-height: 100vh;
+  position: relative;
 }
 
 header {
@@ -75,7 +77,7 @@ p {
 .img-flex {
   width: 100%;
   display: block;
-  padding: 0 0 1em;
+  margin: 0 0 1em;
   border-radius: 1em;
 }
 
@@ -235,6 +237,10 @@ ul {
     line-height: 1.5;
   }
 
+  body {
+    padding-bottom: 15em;
+  }
+
   header {
     display: flex;
     padding: .75em 0;
@@ -276,6 +282,12 @@ ul {
     display: flex;
     text-align: center;
     justify-content: space-between;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 
 }
